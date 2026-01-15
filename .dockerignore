@@ -1,0 +1,40 @@
+# Virtual environments
+.venv
+venv
+env
+build
+dist
+develop-eggs
+eggs
+
+# Byte-compiled / optimized files
+__pycache__
+*.py[cod]
+
+# Source control
+.git
+.gitignore
+.hg
+.svn
+
+# IDE and editor files
+.vscode
+.idea
+*.swp
+
+# Logs and temporary files
+*.log
+temp
+tmp
+
+# Configuration and secrets (if not needed in the image)
+.env
+secrets.yaml
+
+# Docker specific files
+# It's generally recommended to include the Dockerfile, but you might ignore compose files
+docker-compose*.yml
+Dockerfile*
+
+# macOS specific files
+.DS_Store
